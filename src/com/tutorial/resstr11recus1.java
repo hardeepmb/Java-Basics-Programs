@@ -4,8 +4,9 @@ import java.util.*;
 
 public class resstr11recus1 {
     public static void main(String[] args) {
-
-        String s = "Hardeep";
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a string");
+        String s = sc.nextLine();
         System.out.println(res(s));
     }
 
